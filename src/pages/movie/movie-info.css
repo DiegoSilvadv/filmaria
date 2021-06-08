@@ -1,0 +1,30 @@
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.movie-info img {
+    border-radius: 20px;
+}
+
+.movie-info button {
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.6rem;
+    background-color: rgb(47, 151, 37);
+    color: aliceblue;
+}
+.movie-info button:hover {
+    background-color: rgb(38, 141, 29);
+    transition: 500ms;
+}
+.movie-info .buttons a {
+    text-decoration: none;
+    color: aliceblue;
+}
